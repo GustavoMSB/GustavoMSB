@@ -19,7 +19,7 @@ export const Container = styled.div`
 
 export const Header = styled.header`
   width: 19%;
-  background: #2a005f;
+  background: ${({ theme }) => theme.colors.background};
   position: fixed;
   height: 100vh;
   left: 0;
@@ -44,7 +44,10 @@ export const Header = styled.header`
 `;
 
 export const Wrapper = styled.div`
-  width: 79%;
+  width: 81%;
+  height: 100vh;
+  position: absolute;
+  right: 0;
 `;
 
 export const Menu = styled.nav`
@@ -66,24 +69,23 @@ export const Menu = styled.nav`
     justify-content: start;
     gap: 0.5rem;
     width: 100%;
-    border-radius: 1rem;
     position: relative;
     transition: background 0.5s;
 
     &:hover, &:focus {
       background: ${lighten(0.15, '#2a005f')};
+      border-radius: 1rem;
+
+      &.active {
+        border-radius: 0;
+      }
     }
 
     &.active {
-      padding: 0;
-      &::before {
-        margin-right: calc(1rem - 2px);
-        content: "";
-        background: #00eb80;
-        height: 2rem;
-        width: 2px;
-        display: block;
-      }
+      padding: 0 1.25rem;
+      border-left: 4px solid #00eb80;
+      // background: ${lighten(0.15, '#2a005f')};
+
     }
   }
 `;
