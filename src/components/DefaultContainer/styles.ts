@@ -24,6 +24,7 @@ export const Header = styled.header`
   height: 100vh;
   left: 0;
   top: 0;
+  z-index: 5;
 
   display: flex;
   justify-content: center;
