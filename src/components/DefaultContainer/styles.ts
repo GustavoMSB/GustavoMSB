@@ -166,6 +166,7 @@ export const Menu = styled.nav<MenuProps>`
     flex-direction: row;
     display: ${({ isActive }) => isActive ? 'flex' : 'none'};
     padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
 
     background: #2a005f;
     position: absolute;
