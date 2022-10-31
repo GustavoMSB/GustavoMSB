@@ -1,8 +1,9 @@
 import Image from "next/image";
 import {DiReact} from "react-icons/di";
 import { AiOutlineGithub } from "react-icons/ai";
+import { BiMenu } from "react-icons/bi";
 import { MdPersonOutline, MdOutlineCode, MdOutlineContactPage } from "react-icons/md";
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 import { Container, Header, Menu, Wrapper } from "./styles";
 import { useRouter } from "next/router";
 
@@ -12,6 +13,8 @@ interface ContainerProps {
 
 export function DefaultContainer({children}: ContainerProps) {
   const router = useRouter();
+  const route = router.pathname;
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   function openGithub() {
     window.open("https://github.com/gustavomsb", "_blank")
@@ -20,28 +23,36 @@ export function DefaultContainer({children}: ContainerProps) {
   return (
     <Container>
       <Header>
-        <div className="react-logo">
-          <DiReact size={40}/>
+        <div className="start">
+          <div className="react-logo">
+            <DiReact size={40}/>
+          </div>
+          <h3>Gustavo Murilo</h3>
+          <h1>DEV</h1>
         </div>
-        <h3>Gustavo Murilo</h3>
-        <h1>DEV</h1>
+        <button
+          className="menu"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+        >
+          <BiMenu size={28}/>
+        </button>
 
-        <Menu>
+        <Menu isActive={isMenuOpen}>
           <button
-            className={router.pathname === "/" ? "active" : "" }
+            className={route === "/" ? "active" : "" }
             onClick={() => router.push("/")}
           >
             <MdPersonOutline size={20} />
             Sobre mim
           </button>
           <button
-            className={router.pathname === "/projects" ? "active" : "" }
+            className={route === "/projects" ? "active" : "" }
             onClick={() => router.push("/projects")}  
           >
             <MdOutlineCode size={20} />
             Projetos
           </button>
-          <button className={router.pathname === "/" ? "contact" : "" }>
+          <button className={route === "/contact" ? "contact" : "" }>
             <MdOutlineContactPage size={20} />
             Contato
           </button>
