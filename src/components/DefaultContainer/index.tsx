@@ -1,7 +1,7 @@
 import Image from "next/image";
 import {DiReact} from "react-icons/di";
 import { AiOutlineGithub } from "react-icons/ai";
-import { BiMenu } from "react-icons/bi";
+import { BiMenu, BiX } from "react-icons/bi";
 import { MdPersonOutline, MdOutlineCode, MdOutlineContactPage } from "react-icons/md";
 import { ReactNode, useState } from "react";
 import { Container, Header, Menu, Wrapper } from "./styles";
@@ -34,7 +34,7 @@ export function DefaultContainer({children}: ContainerProps) {
           className="menu"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
         >
-          <BiMenu size={28}/>
+          {isMenuOpen ? <BiX size={28}/> : <BiMenu size={28}/>}
         </button>
 
         <Menu isActive={isMenuOpen}>

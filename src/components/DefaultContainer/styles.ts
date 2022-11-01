@@ -154,6 +154,7 @@ export const Menu = styled.nav<MenuProps>`
     @media (max-width: 950px){
       font-size: 1rem;
       padding: 1rem;
+      background: transparent;
 
       &.active {
       padding: 1rem 0.75rem;
@@ -168,7 +169,7 @@ export const Menu = styled.nav<MenuProps>`
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 
-    background: #2a005f;
+    background: rgba(42, 0, 95, 95%);
     position: absolute;
     top: 10vh;
     margin: 0;
