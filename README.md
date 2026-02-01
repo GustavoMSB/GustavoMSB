@@ -1,34 +1,114 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=header"/>
 
-## Getting Started
+<div align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com/?color=00bfbf&size=32&center=true&vCenter=true&width=1000&lines=Olá,+meu+nome+é+Gustavo+Murilo;Full+Stack:+Go+|+React;Seja+Bem-vindo!+🚀" alt="Typing SVG" />
+  </a>
+</div>
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+<div align="center">
+  
+  > ## 🛠️ **ARSENAL TÉCNICO**
+  
+  <br>
+  
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=go,docker,nodejs&perline=10" />
+  </a>
+  
+  <br>
+  
+  <a href="https://skills.syvixor.com">
+    <img src="https://skills.syvixor.com/api/icons?perline=15&i=react,nextjs,vite,materialui,mysql&perline=10" />
+  </a>
+  
+  <br>
+  
+  <a href="https://skills.syvixor.com">
+    <img src="https://skills.syvixor.com/api/icons?perline=15&i=githubpages,vercel,markdown" />
+  </a>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+  <br>
+  
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=git,github,windows,linux,aws,postman&perline=10" />
+  </a>
+  
+  <br><br>
+  
+  <p><i>Combinando a performance do <b>Go/C#</b> com o <b>React</b>.</i></p>
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+</div>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+<br>
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+---
 
-## Learn More
+<div align="center">
 
-To learn more about Next.js, take a look at the following resources:
+> ## ⭐ **PROJETO EM DESTAQUE**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<a href="https://github.com/gustavomsb/dataprofiler">
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/pin/?username=gustavomsb&repo=dataprofiler&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117&hide_border=true&description_lines_count=2" />
+</a>
 
-## Deploy on Vercel
+<br>
+<p>
+  <a href="https://gustavomsb.github.io/dataprofiler/">📚 Ler Documentação (Arquitetura)</a> • 
+  <a href="https://dataprofiler-gustavomsb.onrender.com/">🚀 Ver Demo (Render)</a>
+</p>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+</div>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+<br>
+
+<div align="center">
+
+> ## 📊 **GITHUB STATS**
+
+<br>
+
+<div align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=gustavomsb&show_icons=true&count_private=true&hide_border=true&title_color=00bfbf&icon_color=00bfbf&text_color=c9d1d9&bg_color=0d1117" alt="Gustavo Murilo github stats" /> 
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavomsb&layout=compact&hide_border=true&title_color=00bfbf&text_color=00bfbf&bg_color=0d1117" />
+</div>
+
+<br>
+
+<img width="90%" src="https://github-readme-streak-stats.herokuapp.com/?user=gustavomsb&theme=react&border=c9d1d9&hide_border=true&ring=00bfbf&fire=00bfbf&currStreakNum=00bfbf&sideNums=00bfbf&currStreakLabel=00bfbf" alt="Gustavo Murilo streak stats" />
+
+</div>
+
+<br>
+
+---
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/gustavomsb/gustavomsb/blob/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/gustavomsb/gustavomsb/blob/output/github-contribution-grid-snake.svg" />
+    <img alt="github contribution grid snake animation" src="https://github.com/gustavomsb/gustavomsb/blob/output/github-contribution-grid-snake.svg" />
+  </picture>
+</div>
+
+---
+
+<div align="center">
+  <br>
+  <p align="center"><b>Visitors Count</b></p>  
+  <p align="center"><img align="center" src="https://profile-counter.glitch.me/{gustavomsb}/count.svg" /></p> 
+  <br>
+</div>
+
+<div align="center">
+  <a href="https://skillicons.dev">
+      <img src="https://skills.syvixor.com/api/icons?perline=20&i=androidstudio,netbeans,intellijidea,dbeaver,oracle,python,googlecolaboratory,tensorflow,swc,chartjs,figma,javascript,mariadb,powerbi,powershell,prettier,pytorch,regex,rest,trello,uml,visualstudio,visualstudiocode,yaml,virtualbox,androidstudio,netbeans,intellijidea,dbeaver,oracle,python,googlecolaboratory,tensorflow,zabbix,apachejmeter,junit5,junit4,springsecurity,springboot,hibernate" />
+  </a>
+</div>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=00bfbf&height=120&section=footer"/>
