@@ -19,7 +19,7 @@ export const Container = styled.div`
     padding: 3rem 2rem;
     min-height: 100vh;
     background: ${({ theme }) => theme.colors.backgroundPages};
-    color: #fff;
+    color: ${({ theme }) => theme.colors.text};
     
 
     .header, main {

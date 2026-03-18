@@ -1,0 +1,44 @@
+{
+  "welcome": "Seja muito bem-vindo",
+  "subtitle": "Me chamo Gustavo, sou desenvolvedor de Software e este é meu site!",
+  "intro_1": "Apaixonado por tecnologia desde criança, sempre resolvendo problemas em que alguns familiares não conseguiam, e sempre me perguntando como aquilo funcionava. Em 2017 tive meu primeiro contato com programação no IFS, onde me apaixonei pelo desenvolvimento de software.",
+  "intro_2": "Hoje, acumulo mais de 5 anos de experiência criando soluções robustas e de alto desempenho para a web. Minha jornada abrange desde a construção de interfaces complexas até a arquitetura de sistemas escaláveis, atuando como desenvolvedor Full Stack (React + Go + SQL). Trabalho fortemente com Go (Golang) há pelo menos 3 anos no backend e no ecossistema moderno de JavaScript no frontend.",
+  "tech_title": "Principais tecnologias",
+  "about_title": "Sobre Mim",
+  "hero": {
+    "title_1": "Desenvolvedor de",
+    "title_2": "Software",
+    "cta_projects": "Ver meus projetos",
+    "cta_about": "Mais sobre mim"
+  },
+  "menu": {
+    "about": "Sobre mim",
+    "projects": "Projetos",
+    "github": "Github"
+  },
+  "seo": {
+    "title": "Gustavo Murilo | Desenvolvedor de Software",
+    "description": "Portfólio de Gustavo Murilo, desenvolvedor de software Full Stack especializado em React, Go e SQL. Criando aplicações robustas e escaláveis.",
+    "og_title": "Gustavo Murilo | Desenvolvedor de Software",
+    "og_description": "Especialista em React, Go e SQL. Criando interfaces dinâmicas e arquiteturas de backend escaláveis.",
+    "keywords": "Desenvolvedor, Software, Full Stack, React, Go, SQL, MariaDB, MySQL, Portfolio, Gustavo Murilo"
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "À seguir alguns projetos que fiz/participei:",
+    "items": {
+      "portfolio": {
+        "title": "Portfólio Pessoal 2.0",
+        "description": "A evolução deste projeto, focado em alta velocidade estática, Next.js mais recente, React 19, Styled-Components dinâmico e arquitetura Glassmorphism."
+      },
+      "go_api": {
+        "title": "API em Golang",
+        "description": "Microserviço escalonável desenvolvido em Go para servir de retaguarda de transações financeiras com altíssima performance."
+      },
+      "dashboard": {
+        "title": "Dashboard Genérico",
+        "description": "Painel administrativo criado em React com gráficos e tabelas reativas em tempo real."
+      }
+    }
+  }
+}

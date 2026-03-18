@@ -13,20 +13,22 @@
     "@types/styled-components": "^5.1.26",
     "babel-plugin-styled-components": "^2.0.7",
     "bootstrap": "^5.2.1",
-    "next": "^12.3.1",
-    "polished": "^4.2.2",
-    "react": "^18.2.0",
+    "i18next": "^25.8.18",
+    "next": "^16.1.7",
+    "next-i18next": "^15.4.3",
+    "react": "^19.2.4",
     "react-bootstrap": "^2.5.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0",
-    "styled-components": "^5.3.6"
+    "react-dom": "^19.2.4",
+    "react-i18next": "^16.5.8",
+    "react-icons": "^5.6.0",
+    "styled-components": "^6.3.11"
   },
   "devDependencies": {
-    "@types/node": "18.7.23",
-    "@types/react": "18.0.21",
-    "@types/react-dom": "18.0.6",
-    "eslint": "8.24.0",
-    "eslint-config-next": "12.3.1",
-    "typescript": "4.8.4"
+    "@types/node": "^20.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.0.0",
+    "typescript": "^5.0.0"
   }
 }

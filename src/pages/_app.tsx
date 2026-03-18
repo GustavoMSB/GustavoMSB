@@ -1,15 +1,15 @@
-import type { AppProps } from 'next/app'
+import type { AppProps } from 'next/app';
 import GlobalStyle from '../styles/global';
-import { ThemeProvider } from 'styled-components';
-import theme from '../styles/theme';
+import { AppThemeProvider } from '../contexts/ThemeContext';
+import { appWithTranslation } from 'next-i18next';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
-    <ThemeProvider theme={theme}>
+    <AppThemeProvider>
       <GlobalStyle />
       <Component {...pageProps} />
-    </ThemeProvider>
-  )
+    </AppThemeProvider>
+  );
 }
 
-export default MyApp
+export default appWithTranslation(MyApp);

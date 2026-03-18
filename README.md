@@ -1,34 +1,56 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  <img src="https://img.shields.io/badge/Next-white?style=for-the-badge&logo=next.js&logoColor=black"/>
+  <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
+  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white"/>
+</div>
 
-## Getting Started
+# Gustavo Murilo | Software Developer | Full Stack (React + Go + SQL)🚀
 
-First, run the development server:
+Este é o repositório do meu portfólio pessoal, um espaço vivo onde demonstro meus projetos, habilidades técnicas e a minha jornada como Desenvolvedor Front-End. O projeto foi arquitetado focado em escalabilidade, altíssima performance (atualizado para a **última versão do Next.js e React**) e otimizações de **SEO** para o Google.
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+## 🌟 Destaques do Projeto
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Mecanismos e Core:** Aplicação atualizada para suportar as builds mais potentes do `Next.js` em conjunto com a nova sintaxe e tipagem segura.
+- **Visual Premium (Dark Mode):** Interface baseada em sub-tons escuros com detalhes vibrantes. Incorpora técnicas de *Glassmorphism* (efeito em vidro, desfoque de fundo) construídas internamente usando `styled-components`, trazendo fluidez na navegação com micro-interações 3D.
+- **Alta Otimização de SEO:** O `_document` e `index` foram estruturados semanticamente com tags ricas de OpenGraph e metadados descritivos essenciais.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🛠 Estaque de Tecnologia
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **[Next.js](https://nextjs.org/)** - O Framework React para Web
+- **[React](https://reactjs.org/)** - Camada de Visualizações e Componentes
+- **[TypeScript](https://www.typescriptlang.org/)** - Padronização e Segurança de Tipos
+- **[Styled Components](https://styled-components.com/)** - CSS in JS Dinâmico e Temático
+- Outros utilitários: *Bootstrap*, *React Icons* e *ESLint* para code-quality.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 💻 Rodando na Máquina Local
 
-## Learn More
+Para inspecionar ou contribuir localmente:
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone este repositório**
+   ```bash
+   git clone https://github.com/gustavomsb/portfolio.git
+   cd portfolio
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Instale as dependências**
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. **Inicie o servidor localmente**
+   ```bash
+   npm run dev
+   ```
 
-## Deploy on Vercel
+4. Acesse em seu navegador: `http://localhost:3000`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📌 Links
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Gostou do que viu? Fique à vontade para se conectar comigo! 
+
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gustavomsb)
+
+---
+*Feito com ☕ e focado na melhor experiência de usuário.*

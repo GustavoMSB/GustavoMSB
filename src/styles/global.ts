@@ -20,8 +20,6 @@ export default createGlobalStyle`
 
 
   html{
-   scroll-behavior: smooth;
-
    @media (max-width: 1080px) {
       font-size: 93.75%;
     }
@@ -29,11 +27,14 @@ export default createGlobalStyle`
     @media (max-width: 720px) {
       font-size: 87.5%;
     }
+
+    scroll-behavior: smooth;
   }
 
   body {
     -webkit-font-smoothing: antialiased;
-    background: #090a10;
+    background: ${({ theme }) => theme.colors.background};
+    color: ${({ theme }) => theme.colors.text};
   }
 
   html, body, #__next{

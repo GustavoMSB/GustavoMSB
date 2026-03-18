@@ -1,0 +1,44 @@
+{
+  "welcome": "Welcome",
+  "subtitle": "My name is Gustavo, I'm a Software developer and this is my website!",
+  "intro_1": "Passionate about technology since childhood, always solving problems that some family members couldn't, and always wondering how things worked. In 2017 I had my first contact with programming at IFS, where I fell in love with software development.",
+  "intro_2": "Today, I have over 5 years of experience creating robust and high-performance solutions for the web. My journey ranges from building complex interfaces to architecting scalable systems, working as a Full Stack developer (React + Go + SQL). I work heavily with Go (Golang) for at least 3 years on the backend and in the modern JavaScript ecosystem on the frontend.",
+  "tech_title": "Main technologies",
+  "about_title": "About Me",
+  "hero": {
+    "title_1": "Software",
+    "title_2": "Developer",
+    "cta_projects": "View my projects",
+    "cta_about": "More about me"
+  },
+  "menu": {
+    "about": "About me",
+    "projects": "Projects",
+    "github": "Github"
+  },
+  "seo": {
+    "title": "Gustavo Murilo | Software Developer",
+    "description": "Portfolio of Gustavo Murilo, Full Stack software developer specializing in React, Go, and SQL. Creating robust and scalable applications.",
+    "og_title": "Gustavo Murilo | Software Developer",
+    "og_description": "Specialist in React, Go, and SQL. Creating dynamic interfaces and scalable backend architectures.",
+    "keywords": "Developer, Software, Full Stack, React, Go, SQL, MariaDB, MySQL, Portfolio, Gustavo Murilo"
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Here are some projects I've made/participated:",
+    "items": {
+      "portfolio": {
+        "title": "Personal Portfolio 2.0",
+        "description": "The evolution of this project, focused on high static speed, latest Next.js, React 19, dynamic Styled-Components, and Glassmorphism architecture."
+      },
+      "go_api": {
+        "title": "Golang API",
+        "description": "Scalable microservice developed in Go to serve as a financial transaction backend with high performance."
+      },
+      "dashboard": {
+        "title": "Generic Dashboard",
+        "description": "Administrative panel created in React with real-time reactive charts and tables."
+      }
+    }
+  }
+}
