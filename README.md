@@ -23,28 +23,6 @@ Este é o repositório do meu portfólio pessoal, um espaço vivo onde demonstro
 - **[Styled Components](https://styled-components.com/)** - CSS in JS Dinâmico e Temático
 - Outros utilitários: *Bootstrap*, *React Icons* e *ESLint* para code-quality.
 
-## 💻 Rodando na Máquina Local
-
-Para inspecionar ou contribuir localmente:
-
-1. **Clone este repositório**
-   ```bash
-   git clone https://github.com/gustavomsb/portfolio.git
-   cd portfolio
-   ```
-
-2. **Instale as dependências**
-   ```bash
-   npm install
-   ```
-
-3. **Inicie o servidor localmente**
-   ```bash
-   npm run dev
-   ```
-
-4. Acesse em seu navegador: `http://localhost:3000`
-
 ## 📌 Links
 
 Gostou do que viu? Fique à vontade para se conectar comigo! 
